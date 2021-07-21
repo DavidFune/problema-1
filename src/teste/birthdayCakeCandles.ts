@@ -56,6 +56,6 @@ const birthdayCakeCandles = (candles: number[]) => {
     return highestCandleAmount
 }
 
-var candles: number[] = readlineSync.question('Digite o array de velas, um nume e virgula. Ex: 1,3,4,6');
+var candles: number[] = readlineSync.question('Digite o array de velas, um número e virgula. Ex: 1,3,4,6');
 
 console.log(birthdayCakeCandles(candles));
